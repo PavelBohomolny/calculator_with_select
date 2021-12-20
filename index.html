@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+        <h3>Enter your first number</h3>
+      <input type="number" id="n1" placeholder="First number" />
+      <h3>Enter your second number</h3>
+      <input type="number" id="n2" placeholder="Second number" />
+
+      <select id="operators">
+        <option disabled selected>Choose operator</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="x">x</option>
+      </select>
+
+      <button onclick="calc();">Result</button>
+      <input type="number" id="result" placeholder="Your result" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
